@@ -1,6 +1,6 @@
 const myGlobal = 0
 
-function getGlobal() {
+function myFunction() {
   const myNumber = 1
   console.log(myGlobal)
 
@@ -15,3 +15,5 @@ function getGlobal() {
   }
   return parent()
 }
+
+myFunction()
